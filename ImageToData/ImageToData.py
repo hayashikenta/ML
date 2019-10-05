@@ -49,7 +49,6 @@ def ImageToData(filename, flip_up_side_down=True,
 
     # 色の出現頻度をcollections.Counterで作成
     color_counter = Counter(img_str_list)
-    print(color_counter)
 
     # 最も多く出現する色を背景色として認識する（most_common_color）
     if white_backscreen:
